@@ -14,7 +14,7 @@ test('Create User API', async ({ request }) => {
     'https://reqres.in/api/users',
     {
       data: {
-        name: 'Pankaj',
+        name: 'Sameer',
         job: 'QA Engineer'
       }
     }

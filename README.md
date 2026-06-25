@@ -24,5 +24,4 @@ npm install
 npx playwright test
 
 ## Generate Report
-
 npx playwright show-report
