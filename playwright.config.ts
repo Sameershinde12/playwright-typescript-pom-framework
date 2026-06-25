@@ -35,7 +35,9 @@ export default defineConfig({
        headless: false,
        trace: 'on-first-retry',
        screenshot: 'only-on-failure',
-       video: 'retain-on-failure'
+       video: 'retain-on-failure',
+       launchOptions: {
+    slowMo: 1000}
   },
 
   /* Configure projects for major browsers */
